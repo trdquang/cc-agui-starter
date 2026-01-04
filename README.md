@@ -425,6 +425,8 @@ nt-agui-starter/
    - Frontend: http://localhost:300
    - Backend: http://localhost:3001
 
+<img width="1435" height="760" alt="image" src="https://github.com/user-attachments/assets/5bf66b50-3211-4dfc-8ffc-37d92e9247a0" />
+
 ### Development Workflow
 
 #### Backend Development
