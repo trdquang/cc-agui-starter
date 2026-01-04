@@ -1,0 +1,35 @@
+{
+    "name": "ag-ui-chatbot-backend",
+    "version": "1.0.0",
+    "description": "Node.js backend for AG-UI chatbot",
+    "type": "module",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "tsx watch src/index.ts",
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "clean": "rimraf dist",
+        "test": "vitest"
+    },
+    "dependencies": {
+        "@ag-ui/client": "^0.0.42",
+        "@ag-ui/core": "^0.0.42",
+        "@ai-sdk/openai": "^1.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.0",
+        "express": "^4.21.0",
+        "openai": "^4.70.0",
+        "rxjs": "^7.8.0",
+        "uuid": "^10.0.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.0",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.0.0",
+        "@types/uuid": "^10.0.0",
+        "rimraf": "^6.0.0",
+        "tsx": "^4.0.0",
+        "typescript": "^5.6.0",
+        "vitest": "^2.0.0"
+    }
+}
