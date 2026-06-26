@@ -6,7 +6,7 @@ permissions:
 safe-outputs:
   add-labels:
   add-comment:
-engine: copilot
+engine: gemini
 max-ai-credits: 200
 ---
 

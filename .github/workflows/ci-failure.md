@@ -10,7 +10,7 @@ permissions:
 safe-outputs:
   add-comment:
   create-issue:
-engine: copilot
+engine: gemini
 max-ai-credits: 200
 ---
 
