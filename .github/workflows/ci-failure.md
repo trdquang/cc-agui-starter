@@ -1,7 +1,7 @@
 ---
 on:
   workflow_run:
-    workflows: ['Copilot cloud agent']
+    workflows: ["Copilot cloud agent"]
     types: [completed]
     branches: [main]
 permissions:
